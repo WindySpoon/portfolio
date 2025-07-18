@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+	--color-purple: oklch(55.8% 0.288 302.321);
+    --color-light-purple: oklch(82.7% 0.119 306.383);
+}
+
+@layer base {
+    * {
+        @apply border-black
+    }
+
+	body {
+		@apply bg-purple;
+	}
+
+    button {
+        @apply cursor-pointer;
+    }
+}
